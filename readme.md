@@ -1,14 +1,26 @@
-# **RoboBrrd Dashboard**
+# **RoboBrrd Dashboard v2.0**
+---
 
-RoboBrrd dashboard is a great way to set the minimum, maximum, and home positions of the servos on your RoboBrrd. You can also use the sliders to control the servos. There are handy action buttons to jump to the basic positions, and control the RGB LED eyes. The values of the photocells (or whichever sensors you are using) are displayed as a bar graph. Plus, choose which theme you want to use!
+![RoboBrrd Dashboard](http://robobrrd.com/images/dashboard/dashboard_v2.0_600px.jpg)
 
-RoboBrrd Dashboard saves the positions and your current theme when you change it. When you start the application again, your values will be as you saved them. You can watch it in action in [this video here](http://www.youtube.com/watch?v=FsRBAcZrh2U).
+The RoboBrrd Dashboard app is a great way to control your RoboBrrd.
 
-![RoboBrrd Dashboard](http://farm9.staticflickr.com/8067/8246301446_04161da6ee.jpg)
+It gives you handy access to the most common tasks such as:
 
-Right now it is a beta version! If you find any bugs, please let us know. Twitter: @RobotGrrl.
+- Adjusting the beak, right wing, left wing servo positions
+- Writing the default positions to eeprom memory
+- Triggering different actions
+- Using sliders to mix the eye led colours
+- Observing the ldr values live
+- Easy access to an estop button
 
-Both pieces of code are open source under the BSD 3-clause license. Modify and remix it, leave attribution, and share it! :D
+Plus, three fun themes to choose from!
+
+The app automatically saves your data when you change it. So when you start the app again, the values will be the same as when you left off.
+
+The current version is 2.0, improved to work with the latest [RoboBrrd library](https://github.com/RobotGrrl/RoboBrrdLibrary). You can see the app in action [here](http://www.youtube.com/watch?v=FsRBAcZrh2U).
+
+Licensed under the MIT license. See license.txt for more info.
 
 For more information and to download the pre-compiled versions, check out:
 [robobrrd.com/dashboard](http://robobrrd.com/dashboard)

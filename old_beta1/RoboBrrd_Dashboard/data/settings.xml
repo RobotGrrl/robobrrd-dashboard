@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<settings>
+  <theme num="0"/>
+  <servos>
+    <beak>
+      <position up="44" down="13"/>
+    </beak>
+    <lwing>
+      <position up="175" home="137" down="106"/>
+    </lwing>
+    <rwing>
+      <position up="0" home="22" down="45"/>
+    </rwing>
+  </servos>
+</settings>

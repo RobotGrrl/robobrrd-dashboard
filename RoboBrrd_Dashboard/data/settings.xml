@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <settings>
-  <theme num="0"/>
+  <theme num="1"/>
   <servos>
     <beak>
-      <position up="44" down="13"/>
+      <position up="180" down="0"/>
     </beak>
     <lwing>
-      <position up="175" home="137" down="106"/>
+      <position up="180" home="90" down="0"/>
     </lwing>
     <rwing>
-      <position up="0" home="22" down="45"/>
+      <position up="0" home="90" down="180"/>
     </rwing>
   </servos>
+  <leds blue="168" green="10" red="76"/>
 </settings>
